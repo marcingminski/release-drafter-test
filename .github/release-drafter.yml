@@ -7,9 +7,10 @@ autolabeler:
       - '/docs{0,1}\/.+/'
   - label: 'bug'
     branch:
-      - '/fix*'
+      - '/fix/i'
     title:
       - '/fix/i'
+      - '/bug/i'
   - label: 'enhancement'
     branch:
       - '/feature\/.+/'
