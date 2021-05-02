@@ -1,2 +1,1 @@
 # release-drafter-test
-test
