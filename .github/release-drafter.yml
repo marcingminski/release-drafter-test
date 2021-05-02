@@ -3,6 +3,8 @@ autolabeler:
     files:
       - '*.md'
       - '*.MD'
+  - label: 'docs'
+    files:
       - '/docs/*'
     branch:
       - '/docs/i'
@@ -27,7 +29,9 @@ categories:
       - 'bugfix'
       - 'bug'
   - title: 'Maintenance'
-    label: 'chore'
+    labels: 
+      - 'chore'
+      - 'docs'
 name-template: 'vNext'
 tag-template: 'vNext'
 change-template: '- $TITLE (#$NUMBER by @$AUTHOR)'
