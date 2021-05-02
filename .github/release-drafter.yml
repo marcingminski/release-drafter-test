@@ -3,17 +3,19 @@ autolabeler:
     files:
       - '*.md'
       - '*.MD'
+      - '/docs/*'
     branch:
-      - '/docs{0,1}\/.+/'
+      - '/docs/i'
   - label: 'bug'
     branch:
       - '/fix/i'
+      - '/bug/i'
     title:
       - '/fix/i'
       - '/bug/i'
   - label: 'enhancement'
     branch:
-      - '/feature\/.+/'
+      - '/feature/i'
 categories:
   - title: 'Features'
     labels:
